@@ -496,6 +496,9 @@ header .icons #menu-bars{
     html{
         font-size: 55%;
     }
+    body{
+        overflow-x:hidden;
+    }
     header{
         padding: 1rem 2rem;
     }
