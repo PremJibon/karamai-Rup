@@ -13,7 +13,6 @@
     outline: none; border: none;
     text-transform: capitalize;
     transition: all .2s linear;
-    
    
 }
 html{
@@ -21,11 +20,6 @@ html{
     overflow-x: hidden;
     scroll-padding-top:5.5rem;
     scroll-behavior:smooth;
-    
-}
-body{
-    overflow-x: hidden;
-    overflow-y:auto;
 }
 
 section{
@@ -463,34 +457,33 @@ header .icons #menu-bars{
     font-weight: bold;
 }
 
-/* Footer */
-.footer .box-container {
+/* footer*/
+
+.footer .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 1.5rem;
 }
-
-.footer .box-container .box h3 {
+.footer .box-container .box h3{
     padding: .5rem 0;
     font-size: 2.5rem;
     color: var(--black);
 }
 
-.footer .box-container .box a {
+.footer .box-container .box a{
     display: block;
     padding: .5rem 0;
     font-size: 1.5rem;
     color: var(--light-color);
 }
-
-.footer .box-container .box a:hover {
+.footer .box-container .box a:hover{
     color: var(--green);
     text-decoration: underline;
-}
 
-.footer .credit {
+}
+.footer .credit{
     text-align: center;
-    border-top: .1rem solid rgba(0, 0, 0, .1);
+    border-top: .1rem solid rgba(0,0,0,.1);
     font-size: 2rem;
     color: var(--black);
     padding: .5rem;
@@ -498,12 +491,10 @@ header .icons #menu-bars{
 }
 
 
-
 /* media queries */
 @media (max-width:991px){
     html{
         font-size: 55%;
-        overflow: hidden; /* Added overflow hidden */
     }
     header{
         padding: 1rem 2rem;
@@ -544,12 +535,11 @@ header .icons #menu-bars{
     .home .home-slider .slide .content h3{
         font-size: 5rem;
     }
-    html{
-        font-size: 50%;
-        overflow: hidden; /* Added overflow hidden */
-    }
 }
 @media (max-width:991px){
+    html{
+        font-size: 50%;
+    }
     .dishes .box-container .box img{
         height: auto;
         width: 100%;
