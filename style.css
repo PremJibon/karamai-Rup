@@ -13,6 +13,7 @@
     outline: none; border: none;
     text-transform: capitalize;
     transition: all .2s linear;
+    overflow-y:auto;
    
 }
 html{
